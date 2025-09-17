@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --anduin-primary: #2B8BFC;
-  --anduin-primary-hover: #1A7AEB;
-  --anduin-primary-light: #E8F3FF;
-  --anduin-dark: #1A1A1A;
-  --anduin-text: #5A5A5A;
-  --anduin-light-gray: #F7F9FB;
-  --anduin-border: #E5E8EB;
+  --anduin-primary: #8B5CF6;
+  --anduin-primary-hover: #7C3AED;
+  --anduin-primary-light: #F3E8FF;
+  --anduin-dark: #4C1D95;
+  --anduin-text: #4A1D7A;
+  --anduin-light-gray: #FAF5FF;
+  --anduin-border: #DDD6FE;
   --anduin-white: #FFFFFF;
-  --anduin-gradient: linear-gradient(135deg, #667eea 0%, #2B8BFC 100%);
-  --anduin-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --anduin-shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --anduin-gradient: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%);
+  --anduin-shadow: 0 4px 6px -1px rgba(139, 92, 246, 0.1), 0 2px 4px -1px rgba(139, 92, 246, 0.06);
+  --anduin-shadow-lg: 0 20px 25px -5px rgba(139, 92, 246, 0.1), 0 10px 10px -5px rgba(139, 92, 246, 0.04);
   --anduin-radius: 12px;
   --anduin-radius-sm: 8px;
 }
@@ -271,7 +271,7 @@ p {
 
 /* Quiz Question Card */
 .question-container {
-  background: linear-gradient(135deg, #667eea 0%, #2B8BFC 100%) !important;
+  background: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%) !important;
   padding: 2rem !important;
   border-radius: var(--anduin-radius) !important;
   color: var(--anduin-white) !important;

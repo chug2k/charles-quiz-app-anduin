@@ -36,16 +36,17 @@ const calculateGrade = score => {
     grade = 'F';
   }
 
+  // Personalized messages for Charles based on score ranges
   if (score >= 90) {
-    remarks = "Outstanding! You've mastered this quiz. Well done!";
+    remarks = "Outstanding! You've mastered this quiz. Well done! You are as smart as Linh!";
   } else if (score >= 80 && score <= 89) {
-    remarks = "Great job! You've excelled in this quiz.";
+    remarks = "Great job! You've excelled in this quiz. You're almost as smart as Alin!";
   } else if (score >= 70 && score <= 79) {
-    remarks = "Good effort! You've passed the quiz.";
+    remarks = "Good effort! You've passed the quiz. You should study more.";
   } else if (score >= 60 && score <= 69) {
-    remarks = "You've passed, but there's potential for improvement.";
+    remarks = "You've passed, but there's potential for improvement. You should study MUCH more.";
   } else if (score < 60) {
-    remarks = "Learning is a journey. Keep going, and you'll get there.";
+    remarks = "Learning is a journey. Keep going, and you'll get there. Someday. Very far away.";
   }
 
   return {

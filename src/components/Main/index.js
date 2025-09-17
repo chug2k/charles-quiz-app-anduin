@@ -120,7 +120,7 @@ const Main = ({ startQuiz }) => {
             <Item.Image src={mindImg} />
             <Item.Content>
               <Item.Header>
-                <h1>The Ultimate Trivia Quiz</h1>
+                <h1>Charles' Quiz Challenge</h1>
               </Item.Header>
               {error && (
                 <Message error onDismiss={() => setError(null)}>
@@ -128,6 +128,10 @@ const Main = ({ startQuiz }) => {
                   {error.message}
                 </Message>
               )}
+              <Message positive>
+                <Message.Header>Welcome back, Charles!</Message.Header>
+                <p>Ready to test your knowledge? Let's customize your quiz experience!</p>
+              </Message>
               <Divider />
               <Item.Meta>
                 <p>In which category do you want to play the quiz?</p>

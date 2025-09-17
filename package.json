@@ -1,12 +1,12 @@
 {
-  "name": "quiz-app",
-  "version": "6.0.0",
+  "name": "charles-quiz-app",
+  "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Safdar Jamal",
-    "url": "https://safdarjamal.github.io"
+    "name": "Charles",
+    "url": "https://github.com/chug2k"
   },
-  "homepage": "https://safdarjamal.github.io/quiz-app/",
+  "homepage": "https://localhost:3000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -91,7 +91,7 @@ const Quiz = ({ data, countdownTime, endQuiz }) => {
                 </Item.Extra>
                 <br />
                 <Item.Meta>
-                  <Message size="huge" floating>
+                  <Message size="huge" floating className="question-container">
                     <b>{`Q. ${he.decode(data[questionIndex].question)}`}</b>
                   </Message>
                   <br />
@@ -110,6 +110,7 @@ const Quiz = ({ data, countdownTime, endQuiz }) => {
                           name={decodedOption}
                           active={userSlectedAns === decodedOption}
                           onClick={handleItemClick}
+                          className={`answer-option ${userSlectedAns === decodedOption ? 'selected' : ''}`}
                         >
                           <b style={{ marginRight: '8px' }}>{letter}</b>
                           {decodedOption}
